@@ -53,9 +53,9 @@ body {
     background-color: #003366;
 }
 
-#topnavi{
-    padding: 0px 10px;
+#topnavi ul {
 	position: relative;
+    padding: 0px 10px;
     margin: 10px 0px;
     height: 30px;
 	width: auto;
@@ -66,7 +66,7 @@ body {
 #topnavi li {
 	list-style: none;
     display: inline;
-    margin: 0; padding: 0;
+    margin: 0; 
 }
 
 #topnavi a, #topnavi span {
@@ -89,7 +89,7 @@ body {
      clear: left;
 }
 
-#sidenavi{
+#sidenavi ul {
     color: #2a1705;
     float: left;
     margin: 0px 10px 10px 0;
