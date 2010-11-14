@@ -1,0 +1,150 @@
+
+body {
+    margin: 0; 
+    padding: 0;
+    color: black;
+    background-color:#e0e0e0;
+    font-family: Helvetica, Tahoma, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#whitespace{
+    margin: 0 auto;
+    padding: 0; 
+    width: auto;
+    max-width: 900px;
+    min-width: 650px;
+}
+
+#farbband {
+	left: auto;
+	right: auto;
+    margin: 0;
+    padding: 30px 20px;
+    height: auto;
+    background-color: #669999;
+}    
+
+#logo {
+    left: -15px;
+    top: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+#schalter {
+    top: -15px;
+    right: -15px;
+    padding: 0px;
+	z-index: 1; 
+    position: absolute;
+}
+
+#header {
+    position: relative;
+    margin: 0px 0px;
+    padding: 0px;
+    height: 100px;
+    width: auto;
+	border-radius: 10px;
+    background-color: #003366;
+}
+
+#topnavi{
+    padding: 0px 10px;
+	position: relative;
+    margin: 10px 0px;
+    height: 30px;
+	width: auto;
+	text-align: center;
+    background-color:#2a1705;
+}
+
+#topnavi li {
+	list-style: none;
+    display: inline;
+    margin: 0; padding: 0;
+}
+
+#topnavi a, #topnavi span {
+    float: left; 
+	width: 6em;
+    margin: 0.4em; 
+	padding: 0.2em 1em;
+    text-decoration: none; 
+	font-weight: bold;
+    color: #4f2c0b; 
+	background-color: #a37447;
+}
+
+#topnavi a:hover, #topnavi span {
+	color: #ffcfa1; 
+	background-color: #4f2c0b;
+}
+    
+#topnavi div {
+     clear: left;
+}
+
+#sidenavi{
+    color: #2a1705;
+    float: left;
+    margin: 0px 10px 10px 0;
+    padding: 5px;
+    width: 100px;
+	text-align: center;
+    position: relative;
+    background-color: #a37447;
+}
+
+#sidenavi ul {
+    list-style-position: inside;
+}
+
+#sidenavi li {
+	margin: 10px 0;
+	list-style: none;
+}
+
+#sidenavi a, #sidenavi span {
+    width: 10em;
+    padding: 0.2em 2em;
+    text-decoration: none;
+    font-weight: none;
+    color: #fff;
+    background-color: #a37447;
+}
+
+#sidenavi a:hover, #sidenavi span {
+    color: #ffcfa1;
+    background-color: #4f2c0b;
+}
+
+
+#inhalt {
+    margin:0px 20px 20px 120px; 
+    padding: 10px 10px;
+    background-color:#ffffff;
+}
+
+
+h1 { 
+    color: #1f1f1f; 
+}
+
+h2 {
+	color: #262626;
+}
+
+#footer {
+    margin: 0px 0px;
+    height: 30px;
+    width: auto;
+    position: relative;
+    background-color:#2a1705;
+
+}
+
