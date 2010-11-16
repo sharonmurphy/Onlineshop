@@ -53,8 +53,8 @@ body {
 #topnavi ul{
 	position: relative;
     left: 0px;
-    padding: 0px 10px 0 0;
-    margin: 10px 0px;
+    padding: 0 10px 0 0;
+    margin: 10px 0;
     height: 30px;
 	width: auto;
     border-radius: 5px;
@@ -62,7 +62,7 @@ body {
     background-color:#39ce4e;
 }
 
-.link {
+li.link {
     float: left; 
 	list-style: none;
     display: inline;
