@@ -6,7 +6,9 @@
  <head>
   <title>Schnarchnase</title>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="main.css" />
+  <link rel="stylesheet" type="text/css" href="main.css" title="standart"/>
+  <link rel="alternative stylesheet" type="text/css" href="lichtaus.css" title="lichtaus" />
+  <script type="text/javascript" src="/scripts/styleswitcher.js"></script>
  </head>
 
  <body>
@@ -18,7 +20,7 @@
         		<img src="images/kaffeebohne.png" height="100px" alt="logo">
       		 </div>
        		<div id="schalter">
-       			<img src="images/licht.png" height="50px" alt="lichtschalter">
+       			<img src="images/licht.png" height="50px" alt="lichtschalter" onclick="setActiveStyleSheet(‘alternate’); return false;">
        		</div>
      	 </div>
       
