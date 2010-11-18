@@ -2,27 +2,27 @@
 
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-
  <head>
-  <title>Seite1</title>
+  <title>Seite5</title>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-  <link rel="stylesheet" media="screen" type="text/css" href="main.css" />
+  <link rel="stylesheet" title="standart" media="screen" type="text/css" href="main.css" />
   <link rel="stylesheet" media="print" type="text/css" href="print.css" />
+  <link rel="alternative stylesheet" title="licht" type="text/css" href="lichtaus.css" />
+  <script language="JavaScript" src="scripts/styleswitcher.js"></script>
  </head>
 
  <body>
  <div id="whitespace">
   <div id="farbband">
-      
       <div id="header">
         <div id="banner">
-         <!--<img src="images/stifte.jpg" height="100px" alt="Banner"> -->
+            <!--<img src="images/stifte.jpg" height="100px" alt="Banner"> -->
         </div>
         <div id="logo">
         	<a href="index.html"><img src="images/kaffeebohne.png" height="100px" alt="logo"></a>
-       </div>
+    </div>
        <div id="switcher">
-       		<img src="images/licht.png" height="50px" alt="lichtschalter">
+       		<img src="images/licht.png" height="50px" onclick="lichtaus(); return false;" alt="lichtschalter">
        </div>
       </div>
       

@@ -37,7 +37,11 @@
 			</ul>
       </div>
       
-
+      <div id="sidenavi">
+	   		<ul>
+                
+            </ul>      
+      </div>
       
       <div id="content">
       <div id="text">

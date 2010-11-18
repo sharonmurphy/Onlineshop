@@ -1,0 +1,145 @@
+    
+body {
+    margin: 0; 
+    padding: 0;
+    color: white;
+    font-family: Helvetica, Tahoma, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: justify;
+    background-color: #000;
+}
+
+#whitespace{
+    margin: 0 auto;
+    padding: 30px 20px; 
+    width: auto;
+    max-width: 900px;
+    min-width: 650px;
+    background-color: #000;
+}   
+
+#logo img{
+	border : 0 none;
+}
+#header {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: auto;
+}
+
+#banner {
+    background-color: #2b9d3b;
+	border-radius: 10px;
+    height: 100%;
+    margin: 0 0 0 120px;
+}
+
+
+#logo {
+    left: -15px;
+    top: 0px;
+    padding: 0px;
+    position: absolute;
+}
+
+#switcher {
+    top: -15px;
+    right: -15px;
+    padding: 0px;
+	z-index: 1; 
+    position: absolute;
+}
+
+#topnavi ul{
+	position: relative;
+    left: 0px;
+    padding: 0 10px 0 0;
+    margin: 10px 0;
+    height: 30px;
+	 width: auto;
+	 border-radius: 5px;
+    text-align: center;
+    background-color:#3f3f3f;
+}
+
+li.link {
+    float: left; 
+	 list-style: none;
+    display: inline;
+    width: 6em;
+    margin: 0.4em; 
+	 padding: 0.2em 1em;
+}
+
+.link a, .link span {
+    text-decoration: none; 
+	 font-weight: bold;
+    color: #AAA; 
+}
+
+.link a:hover, .link span.aktive{
+	color: #1F1F1F; 
+}
+
+#topnavi div {
+     clear: left;
+}
+
+
+#sidenavi ul{ 
+   background-color: 3f3f3f;
+	color: white;
+   float: left;
+   margin: 0;
+   padding: 5px;
+   width: 150px;
+	text-align: left;
+   position: relative;
+}
+
+#content {
+    margin: auto 0;
+    padding: 0; 
+    height: auto;
+    max-height: 900px;
+    min-height: 550px;
+}
+
+#footer {
+    right: 0px;
+    bottom: 0px;
+    padding: 0;
+    margin: 40px 20px 0px 0px;
+    height: 30px;
+    width: 100%;
+	 background-color: #3f3f3f;
+}
+
+.metanavi li{
+    list-style: none;
+    float: right;
+    padding: 0 0 0 5px;
+}
+
+#text {
+    margin:0px 20px 20px 200px; 
+    padding: 10px 10px;
+}
+
+
+h1 { 
+    color: #AAA; 
+}
+
+h2 {
+	color: #BBB;
+}
+
+
+
+
+	
