@@ -31,10 +31,7 @@ body {
 }
 
 #banner {
-    background-color: #c4c4c4;
-	border-radius: 10px;
-    height: 100%;
-    margin: 0 0 0 120px;
+   display: none;
 }
 
 #logo {
