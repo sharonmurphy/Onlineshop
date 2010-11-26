@@ -60,7 +60,7 @@ body {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius:  5px;
-    background-color:#94b800;
+    background-color:#67a601;
 	position: relative;
     left: 0px;
     padding: 0;
@@ -97,7 +97,7 @@ li.link {
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius:  5px;
-    background-color:#94b800;
+    background-color:#67a601;
     color: #2a1705;
     float: left;
     margin: 0;
@@ -118,7 +118,7 @@ li.link {
     padding: 0;
     margin: 40px 0px 0px 0px;
     height: 2.5em;
-    background-color:#99b830;
+    background-color:#67a601;
     width: auto;
     border-radius: 5px;
     -moz-border-radius: 5px;

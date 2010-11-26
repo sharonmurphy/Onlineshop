@@ -6,8 +6,10 @@
  <head>
   <title>Seite1</title>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-  <link rel="stylesheet" media="screen" type="text/css" href="main.css" />
+  <link rel="stylesheet" title="standart" media="screen" type="text/css" href="main.css" />
   <link rel="stylesheet" media="print" type="text/css" href="print.css" />
+  <link rel="alternative stylesheet" title="licht" type="text/css" href="lichtaus.css" />
+  <script language="JavaScript" src="scripts/styleswitcher.js"></script>
  </head>
 
  <body>
@@ -21,7 +23,7 @@
         	<img src="images/logo.png" height="140px" alt="logo">
        </div>
        <div id="switcher">
-       		<img src="images/licht.png" height="50px" alt="lichtschalter">
+       		<img src="images/licht.png" height="50px" onclick="lichtaus(); return false;" alt="lichtschalter"/>
        </div>
       </div>
       

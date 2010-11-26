@@ -20,64 +20,69 @@ body {
     background-color: #000;
 }   
 
-#logo img{
-	border : 0 none;
-}
 #header {
     position: relative;
     margin: 0px;
-    padding: 0px;
+    padding: 20px 0 0 0;
     height: 100px;
     width: auto;
 }
 
 #banner {
-    background-color: #2b9d3b;
+    background: url("images/bannerKontrast.png"); 
 	border-radius: 10px;
-    height: 100%;
-    margin: 0 0 0 120px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius:  10px;
+    height: 60px;
+    margin: 40px 0 0 0;
 }
 
 
 #logo {
-    left: -15px;
-    top: 0px;
-    padding: 0px;
+    border: none;
+    left: 10px;
+    bottom: 10px;
     position: absolute;
 }
 
+#logo img {
+    border: none;
+}
+
 #switcher {
-    top: -15px;
-    right: -15px;
+    top: 35px;
+    right: -20px;
     padding: 0px;
 	z-index: 1; 
     position: absolute;
 }
 
 #topnavi ul{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#3f3f3f;
 	position: relative;
     left: 0px;
-    padding: 0 10px 0 0;
+    padding: 0;
     margin: 10px 0;
-    height: 30px;
-	 width: auto;
-	 border-radius: 5px;
-    text-align: center;
-    background-color:#3f3f3f;
+    height: 2.5em;
+	width: auto;
+	text-align: center;
 }
 
 li.link {
     float: left; 
-	 list-style: none;
+	list-style: none;
     display: inline;
     width: 6em;
-    margin: 0.4em; 
-	 padding: 0.2em 1em;
+    margin: 0.6em 0; 
+	padding: 0.2em 1em;
 }
 
 .link a, .link span {
     text-decoration: none; 
-	 font-weight: bold;
+	font-weight: bold;
     color: #AAA; 
 }
 
@@ -89,34 +94,36 @@ li.link {
      clear: left;
 }
 
-
-#sidenavi ul{ 
-   background-color: #3f3f3f;
-	color: white;
-   float: left;
-   margin: 0;
-   padding: 5px;
-   width: 150px;
+#sidenavi ul{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#3f3f3f;
+    color: #white;
+    float: left;
+    margin: 0;
+    padding: 5px;
+    width: 150px;
 	text-align: left;
-   position: relative;
+    position: relative;
 }
 
 #content {
     margin: auto 0;
-    padding: 0; 
-    height: auto;
-    max-height: 900px;
-    min-height: 550px;
+    padding: 0;
 }
 
 #footer {
     right: 0px;
     bottom: 0px;
     padding: 0;
-    margin: 40px 20px 0px 0px;
-    height: 30px;
-    width: 100%;
-	 background-color: #3f3f3f;
+    margin: 40px 0px 0px 0px;
+    height: 2.5em;
+    background-color:#3f3f3f;
+    width: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
 }
 
 .metanavi li{
@@ -138,8 +145,3 @@ h1 {
 h2 {
 	color: #BBB;
 }
-
-
-
-
-	
