@@ -1,0 +1,160 @@
+    
+body {
+    margin: 0; 
+    padding: 0;
+    color: black;
+    font-family: Helvetica, Tahoma, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: justify;
+}
+
+#whitespace{
+    margin: 0 auto;
+    padding: 30px 20px; 
+    width: auto;
+    max-width: 900px;
+    min-width: 650px;
+    background-color: #f0f0f0;
+}   
+
+#header {
+    position: relative;
+    margin: 0px;
+    padding: 20px 0 0 0;
+    height: 100px;
+    width: auto;
+}
+
+#banner {
+    background: url("images/banner.png"); 
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius:  10px;
+    height: 60px;
+    margin: 40px 0 0 0;
+}
+
+
+#logo {
+    left: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+
+#logo img {
+    border: none;
+}
+
+#switcher {
+    top: 35px;
+    right: -20px;
+    padding: 0px;
+	z-index: 1; 
+    position: absolute;
+}
+
+#topnavi ul{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#94d101;
+	position: relative;
+    left: 0px;
+    padding: 0 0.5em;
+    margin: 10px 0;
+    height: 2.6em;
+	width: auto;
+	text-align: center;
+}
+
+li.link {
+    float: left; 
+    list-style: none;
+    display: inline;
+    margin: 0.7em 0em; 
+}
+
+li.link a, li.link span {
+    text-decoration: none; 
+	font-weight: bold;
+    color: #494949; 
+    margin: 0 0.2em;
+    padding: 0.2em 1em;
+    background-color:#85bc02;	
+}
+
+li.link a:hover, li.link span.aktive{
+	color: #ff0006; 
+    background-color:#b4ff00;	
+    padding: 0.2em 1em;
+}
+
+ul.metanavi li{
+    list-style: none;
+    float: right;
+}
+
+#topnavi ul li.link{
+    border-right: solid 0;
+}
+
+#footer ul li.link {
+    border-left: solid 0;
+}
+
+#sidenavi ul li.link{
+    border: solid 1px;
+    width: 11em;
+}
+
+#topnavi div {
+     clear: left;
+}
+
+#sidenavi ul{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#94d101;
+    color: #2a1705;
+    float: left;
+    margin: 0;
+    padding: 5px;
+    width: 12em;
+	text-align: left;
+    position: relative;
+}
+
+#content {
+    margin: auto 0;
+    padding: 0;
+}
+
+#footer {
+    right: 0px;
+    bottom: 0px;
+    padding: 0 0.5em;
+    margin: 40px 0px 0px 0px;
+    height: 2.5em;
+    background-color:#94d101;
+    width: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+}
+
+#text {
+    margin:0px 20px 20px 200px; 
+    padding: 10px 10px;
+}
+
+
+h1 { 
+    color: #1f1f1f; 
+}
+
+h2 {
+	color: #262626;
+}

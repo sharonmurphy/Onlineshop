@@ -1,0 +1,147 @@
+    
+body {
+    margin: 0; 
+    padding: 0;
+    color: white;
+    font-family: Helvetica, Tahoma, Arial, Sans-Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: justify;
+    background-color: #000;
+}
+
+#whitespace{
+    margin: 0 auto;
+    padding: 30px 20px; 
+    width: auto;
+    max-width: 900px;
+    min-width: 650px;
+    background-color: #000;
+}   
+
+#header {
+    position: relative;
+    margin: 0px;
+    padding: 20px 0 0 0;
+    height: 100px;
+    width: auto;
+}
+
+#banner {
+    background: url("images/bannerKontrast.png"); 
+	border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius:  10px;
+    height: 60px;
+    margin: 40px 0 0 0;
+}
+
+
+#logo {
+    border: none;
+    left: 10px;
+    bottom: 10px;
+    position: absolute;
+}
+
+#logo img {
+    border: none;
+}
+
+#switcher {
+    top: 35px;
+    right: -20px;
+    padding: 0px;
+	z-index: 1; 
+    position: absolute;
+}
+
+#topnavi ul{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#3f3f3f;
+	position: relative;
+    left: 0px;
+    padding: 0;
+    margin: 10px 0;
+    height: 2.5em;
+	width: auto;
+	text-align: center;
+}
+
+li.link {
+    float: left; 
+	list-style: none;
+    display: inline;
+    width: 6em;
+    margin: 0.6em 0; 
+	padding: 0.2em 1em;
+}
+
+.link a, .link span {
+    text-decoration: none; 
+	font-weight: bold;
+    color: #AAA; 
+}
+
+.link a:hover, .link span.aktive{
+	color: #1F1F1F; 
+}
+
+#topnavi div {
+     clear: left;
+}
+
+#sidenavi ul{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#3f3f3f;
+    color: #white;
+    float: left;
+    margin: 0;
+    padding: 5px;
+    width: 150px;
+	text-align: left;
+    position: relative;
+}
+
+#content {
+    margin: auto 0;
+    padding: 0;
+}
+
+#footer {
+    right: 0px;
+    bottom: 0px;
+    padding: 0;
+    margin: 40px 0px 0px 0px;
+    height: 2.5em;
+    background-color:#3f3f3f;
+    width: auto;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+}
+
+.metanavi li{
+    list-style: none;
+    float: right;
+    padding: 0 0 0 5px;
+}
+
+#text {
+    margin:0px 20px 20px 200px; 
+    padding: 10px 10px;
+}
+
+
+h1 { 
+    color: #AAA; 
+}
+
+h2 {
+	color: #BBB;
+}
