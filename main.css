@@ -1,11 +1,11 @@
- body {
+body {
     margin: 0; 
     padding: 0;
     color: black;
     font-family: Helvetica, Tahoma, Arial, Sans-Serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: justify;
 }
 
@@ -14,13 +14,15 @@
     padding: 30px 20px; 
     width: auto;
     max-width: 900px;
-    min-width: 650px;
+    min-width: 750px;
     background-color: #f0f0f0;
+
 }   
 
 #login{
+    position: absolute;
     float: right;
-    right: 150px;
+    right: 0px;
     top: 0px;
     margin-bottom:50px;
 }
@@ -53,14 +55,15 @@
 }
 
 #switcher {
-    top: 35px;
-    right: -20px;
+    top: 20px;
+    right: -25px;
     padding: 0px;
 	z-index: 1; 
     position: absolute;
 }
 
 #topnavi ul{
+    font-size: 0.9em;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius:  5px;
@@ -90,9 +93,21 @@ li.link a, li.link span {
     background-color:#85bc02;
 }
 
-li.link a:hover, li.link span.aktive{
+li.link a:hover{
+	color: #ff0006; 
+}
+
+li.link span.aktive{
 	color: #ff0006; 
     background-color:#b4ff00;	
+}
+
+li.link span.aktive a {
+    padding: 0;
+    margin: 0;
+	color: #ff0006;
+    background-color:#b4ff00;	
+ 
 }
 
 ul.metanavi li{
@@ -117,6 +132,7 @@ ul.metanavi li{
 }
 
 #sidenavi {
+    font-size: 0.9em;
     position: absolute;
     height: 20em;
     width: 12em;
@@ -139,8 +155,11 @@ ul.metanavi li{
 }
 
 #content {
-    margin: auto 0;
-    padding: 0;
+    margin:0px 1em 1em 16em; 
+    padding: 1em ;
+    min-height: 30em;
+    overflow: auto;
+    font-size: 0.9em;
 }
 
 #content img{
@@ -152,37 +171,61 @@ ul.metanavi li{
     -webkit-border-radius:  5px;
 }
 
-#text {
-    margin:0px 1em 1em 16em; 
-    padding: 1em ;
-    min-height: 30em;
-    overflow: auto;
-    font-size: 0.9em;
-}
-
-#text a img.bildlink {
+#content a img.bildlink {
     margin: 1em;
-    padding: 0.2em;
+    padding: 0.4em;
     border-color:#7A7A7A;
     float: left;
-    border: solid;
+    border: none;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius:  5px;
 }
 
-#text ul.initiale li {
+#content a.bild_menu img{
+    margin: 0.6em;
+    padding: 0.3em;
+    background-color: #a0e300;
+    float: left;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+}
+
+#content img.bild_produkt {
+    margin: 1em;
+    padding: 0em;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+}
+
+#content img.produkt {
+    margin: 1em;
+    padding: 0.4em;
+    background-color: #7A7A7A;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+}
+
+#content ul.initiale li {
     list-style: none;
 }
 
-#text ul.initiale li:first-letter {
+#content ul.initiale li:first-letter {
     font-style:
     width: 2em;
     font-size: 1.5em;
     border: solid 1px;
 }
 
-#text div {
+#content div {
      clear: left;
 }
 
@@ -191,30 +234,28 @@ ul.metanavi li{
     border-radius: 4px;
     -moz-border-radius: 4px;
     background-color: white;
-    margin: 1em;
+    margin: 0 1em 0 0;
     padding: 1em;
     float: right;
-    width: 18em;
+    width: 44%;
+    min-height: 400px;
 }
 
 .column a{
     text-decoration: none;
+    color: #85bc02;
 }
 
-.column h1, .links h1{
+.column h1 {
+    font-size: 1.4em;
+}
+
+.column h2 {
+    font-size: 1.3em;
+}
+
+.column h3 {
     font-size: 1.2em;
-}
-
-.column h2, .links h2{
-    font-size: 1em;
-}
-
-#cont_bild{
-    padding: 20px 20px 20px 20px;
-}
-
-#cont_text{
-   margin-top: 20px;
 }
 
 .quelle {
@@ -229,10 +270,17 @@ ul.metanavi li{
 }
 
 h1 { 
+    font-size: 2em;
     color: #1f1f1f; 
 }
 
 h2 {
+    font-size: 1.8em;
+	color: #262626;
+}
+
+h3 {
+    font-size: 1.4em;
 	color: #262626;
 }
 
@@ -240,9 +288,11 @@ em {
     color: #137099;
     font-style: normal;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 #footer {
+    font-size: 0.9em;
     right: 0px;
     bottom: 0px;
     padding: 0 0.5em;
