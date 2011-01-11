@@ -63,11 +63,27 @@ var cookie = readCookie("style");
 var title = cookie ? cookie : getPreferredStyleSheet();
 setActiveStyleSheet(title);
 
-	function lichtaus() {
-		if(getActiveStyleSheet() != "licht"){
-			setActiveStyleSheet('licht');
-		}
-		else{
-			setActiveStyleSheet('standart');
-		}	
-	}
+        function lichtaus() {
+                if(getActiveStyleSheet() != "licht"){
+                        setActiveStyleSheet('licht');
+                }
+                else{
+                        setActiveStyleSheet('standart');
+                }
+        }
+
+        function normaleF() {
+                if(getActiveStyleSheet() != "standart"){
+                        setActiveStyleSheet('standart');
+                }
+                else{
+                        setActiveStyleSheet('standart');
+                }
+        }
+        function grosseF(){
+                 setActiveStyleSheet('grosseFonts');
+                 }
+
+        function groessereF(){
+                 setActiveStyleSheet('groessereFonts');
+                 }

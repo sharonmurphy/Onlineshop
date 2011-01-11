@@ -8,32 +8,36 @@
   <link rel="stylesheet" title="standart" media="screen" type="text/css" href="main.css" />
   <link rel="stylesheet" media="print" type="text/css" href="print.css" />
   <link rel="alternative stylesheet" title="licht" type="text/css" href="lichtaus.css" />
-  <script language="JavaScript" src="scripts/styleswitcher.js"></script>
+  <link rel="alternative stylesheet" title="normaleFonts" type="text/css" href="main.css" />
+  <link rel="alternative stylesheet" title="grosseFonts" type="text/css" href="gross.css" />
+  <link rel="alternative stylesheet" title="groessereFonts" type="text/css" href="grosser.css" />
+  <script type="text/javascript" language="JavaScript" src="scripts/styleswitcher.js"></script>
  </head>
 
  <body>
  <div id="whitespace">
-      
+
   <div id="farbband">
 
      <div id="header">
-        <div id="login">
-          <form action="input_text.htm">
-                  <p>Login: <input name="vorname" type="text" size="15" maxlength="30">
-                  Kennwort: <input name="pwd" type="text" size="15" maxlength="40">
-                  </p>
-         </form>
-        </div>
+      <div id="login">
+                 <a href="anmeldung.html">Anmeldung</a>
+                 <a href="warenkorb.html">Warenkorb</a>
+                 <img src="images/kleina.jpg" height="15px" onclick="kleineF(); return false;" alt="a"/>
+                 <img src="images/a.jpg" height="15px" onclick="normaleF(); return false;" alt="a+"/>
+                 <img src="images/grossa.jpg" height="15px" onclick="grosseF(); return false;" alt="a++"/>
+     </div>
+
         <div id="banner"> </div>
-        <div id="logo"><img src="images/logo.png" height="140px" alt="logo"> </div>
+        <div id="logo"><img src="images/logo.png" height="140px" alt="logo"/> </div>
         <div id="switcher">
                        <img src="images/licht.png" height="50px" onclick="lichtaus(); return false;" alt="lichtschalter"/>
         </div>
      </div>
 
       <div id="topnavi">
-                          <ul>
-                <li class="link"><span class="aktive"><a href="index.html">Startseite</a></span><div></div></li>
+                        <ul>
+               				<li class="link"><span class="aktive">Startseite</span><div></div></li>
                             <li class="link"><a href="produkte.html">Produkte</a></li>
                             <li class="link"><a href="unternehmen.html">Unternehmen</a></li>
                             <li class="link"><a href="hersteller.html">Hersteller</a></li>
@@ -41,17 +45,20 @@
                         </ul>
       </div>
 
+
+
       <div id="content">
-        <h1>Herzlich&nbsp;Willkommen</h1>
-        <p>Unser Unternehmen steht für umwelt- und sozialverträglich, qualitativ hochwertige Produkte - rund um die Welt!</p>
-        <p>Wir bieten fair gehandelte Waren zu einem fairen Preis.</p>
-        <p><em>Überzeugen Sie sich selbst.</em></p>
-        <a href="produkte.html" class="bild_menu"><img src="images/stuff.png" height="30px" alt="Produkte"></a>
-        <a href="unternehmen.html" class="bild_menu"><img src="images/corp.png" height="30px" alt="Unternehmen"></a>
-        <a href="hersteller.html" class="bild_menu"><img src="images/make.png" height="30px" alt="Hersteller"></a>
-        <a href="infos.html" class="bild_menu"><img src="images/news.png" height="30px" alt="Infos"><div></div></a>
+      <div id="text">
+        <h1>Eine&nbsp;Ueberschrift</h1>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
+                        elitr, sed diam nonumy eirmod tempor invidunt ut
+            labore et dolore magna aliquyam erat, sed diam
+                        voluptua. At vero eos et accusamet justo duo
+            dolores et ea rebum.
+        </p>
+
       </div>
-      
+      </div>
       <div id="footer">
         <ul class="metanavi">
                 <li class="link"><a href="kontakt.html">Kontakt</a></li>
@@ -59,6 +66,7 @@
                 <li class="link"><a href="impressum.html">Impressum</a></li>
         </ul>
       </div>
+  </div>
  </div>
  </body>
 

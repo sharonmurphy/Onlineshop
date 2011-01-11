@@ -7,6 +7,7 @@ body {
     font-weight: normal;
     font-size: 0.9em;
     text-align: justify;
+    background-color: #fff;
 }
 
 #whitespace{
@@ -16,15 +17,24 @@ body {
     max-width: 900px;
     min-width: 750px;
     background-color: #f0f0f0;
-
 }   
 
 #login{
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 0 0.2em;
+    padding: 0.2em 1em;
     position: absolute;
-    float: right;
-    right: 0px;
-    top: 0px;
+    right: 10px;
+    top: -20px;
     margin-bottom:50px;
+}
+
+#login a, #login a img{
+    margin: 0 0 0 0.5em;
+    text-decoration: none;
+    border: none;
+    color: #494949;
 }
 
 #header {
@@ -37,7 +47,7 @@ body {
 
 #banner {
     background: url("images/banner.png"); 
-	border-radius: 10px;
+    border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius:  10px;
     height: 60px;
@@ -58,7 +68,7 @@ body {
     top: 20px;
     right: -25px;
     padding: 0px;
-	z-index: 1; 
+    z-index: 1;
     position: absolute;
 }
 
@@ -68,13 +78,13 @@ body {
     -moz-border-radius: 5px;
     -webkit-border-radius:  5px;
     background-color:#94d101;
-	position: relative;
+    position: relative;
     left: 0px;
     padding: 0 0.5em;
     margin: 10px 0;
     height: 2.6em;
-	width: auto;
-	text-align: center;
+    width: auto;
+    text-align: center;
 }
 
 li.link {
@@ -86,7 +96,7 @@ li.link {
 
 li.link a, li.link span {
     text-decoration: none; 
-	font-weight: bold;
+    font-weight: bold;
     color: #494949; 
     margin: 0 0.2em;
     padding: 0.2em 1em;
@@ -94,20 +104,19 @@ li.link a, li.link span {
 }
 
 li.link a:hover{
-	color: #ff0006; 
+    color: #ff0006;
 }
 
 li.link span.aktive{
-	color: #ff0006; 
+    color: #ff0006;
     background-color:#b4ff00;	
 }
 
 li.link span.aktive a {
     padding: 0;
     margin: 0;
-	color: #ff0006;
+    color: #ff0006;
     background-color:#b4ff00;	
- 
 }
 
 ul.metanavi li{
@@ -115,31 +124,19 @@ ul.metanavi li{
     float: right;
 }
 
-#topnavi ul li.link{
-    border-right: solid 0;
-}
-
-#footer ul li.link {
-    border-left: solid 0;
-}
-
-#sidenavi ul li.link{
-    border: 0px;
-}
-
 #topnavi div {
      clear: left;
 }
 
 #sidenavi {
-    font-size: 0.9em;
-    position: absolute;
-    height: 20em;
-    width: 12em;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius:  5px;
     background-color:#94d101;
+    font-size: 0.9em;
+    position: absolute;
+    height: 20em;
+    width: 12em;
 }
 
 #sidenavi ul{
@@ -147,7 +144,7 @@ ul.metanavi li{
     float: left;
     margin: 0;
     padding: 5px;
-	text-align: left;
+    text-align: left;
 }
 
 #sidenavi div {
@@ -155,16 +152,17 @@ ul.metanavi li{
 }
 
 #content {
-    margin:0px 1em 1em 16em; 
+    position: relative;
+    margin: 0px 1em 1em 16em;
     padding: 1em ;
     min-height: 30em;
     overflow: auto;
-    font-size: 0.9em;
 }
 
 #content img{
     margin: 1em;
     padding: 0.5em;
+    border: none;
     background-color:#7A7A7A;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -219,7 +217,7 @@ ul.metanavi li{
 }
 
 #content ul.initiale li:first-letter {
-    font-style:
+    font-style: normal;
     width: 2em;
     font-size: 1.5em;
     border: solid 1px;
@@ -234,10 +232,11 @@ ul.metanavi li{
     border-radius: 4px;
     -moz-border-radius: 4px;
     background-color: white;
-    margin: 0 1em 0 0;
+    color: #000;
+    margin: 0 1.1em 0 0;
     padding: 1em;
     float: right;
-    width: 44%;
+    width: 43%;
     min-height: 400px;
 }
 
@@ -248,14 +247,17 @@ ul.metanavi li{
 
 .column h1 {
     font-size: 1.4em;
+    color: #1f1f1f;
 }
 
 .column h2 {
     font-size: 1.3em;
+    color: #262626;
 }
 
 .column h3 {
     font-size: 1.2em;
+    color: #262626;
 }
 
 .quelle {
@@ -276,12 +278,12 @@ h1 {
 
 h2 {
     font-size: 1.8em;
-	color: #262626;
+    color: #262626;
 }
 
 h3 {
     font-size: 1.4em;
-	color: #262626;
+    color: #262626;
 }
 
 em {
@@ -292,15 +294,16 @@ em {
 }
 
 #footer {
-    font-size: 0.9em;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#94d101;
+    clear:both;
     right: 0px;
     bottom: 0px;
     padding: 0 0.5em;
     margin: 40px 0px 0px 0px;
     height: 2.5em;
-    background-color:#94d101;
     width: auto;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius:  5px;
+    font-size: 0.9em;
 }
