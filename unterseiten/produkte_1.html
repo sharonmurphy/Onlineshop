@@ -9,7 +9,7 @@
   <link rel="stylesheet" media="print" type="text/css" href="../print.css" />
   <link rel="alternative stylesheet" title="licht" type="text/css" href="../lichtaus.css" />
 
-  <script language="JavaScript" src="../scripts/styleswitcher.js"></script>
+  <script type="text/javascript" language="JavaScript" src="../scripts/styleswitcher.js"></script>
 
  </head>
 
@@ -19,7 +19,7 @@
 
       <div id="header">
        <div id="banner"> </div>
-       <div id="logo"> <img src="../images/logo2.png" height="140px" alt="logo"></div>
+       <div id="logo"> <img src="../images/logo2.png" height="140px" alt="logo"/></div>
        <div id="switcher"><img src="../images/licht.png" height="50px" onclick="lichtaus(); return false;" alt="lichtschalter"/></div>
       </div>
 
@@ -29,7 +29,7 @@
                 <li class="link"><span class="aktive"><a href="../produkte.html">Produkte</a></span></li>
                 <li class="link"><a href="../unternehmen.html">Unternehmen</a></li>
                 <li class="link"><a href="../hersteller.html">Hersteller</a></li>
-                <li class="link"><a href="../infos.html">Infos</a><div></div></li>
+                <li class="link"><a href="../infos.html">Infos</a><div class="clear"></div></li>
            </ul>
       </div>
 
@@ -44,14 +44,16 @@
       </div>
 
       <div id="content">
-        <div id="text">
                 <div class="produkt">
-                    <p><a href="produkte_1_1.html"><img src="../images/kaffee1.jpg" alt="Kaffee Nr.1"/></a>
-                    Das ist Kaffee Nr.1</p>
-                    <p><a href="produkte_1_1.html"><img src="../images/kaffee1.jpg" alt="Kaffee Nr.1"/></a>
-                    Das ist Kaffee Nr.2</p>
-                    <p><a href="produkte_1_1.html"><img src="../images/kaffee1.jpg" alt="Kaffee Nr.1"/></a>
-                    Das ist Kaffee Nr.3</p>
+                    <ul class="metanavi">
+                        <li><a href="produkte_1_1.html"><img src="../images/kaffee_gepa.jpg" height="100px" alt="Kaffee Nr.1"/></a>
+                       <span>Hier finden Sie den Kaffee von Gepa.</span></li>
+                        <li><a href="produkte_1_1.html"><img src="../images/kaffee_fair.jpg" height="100px" alt="Kaffee Nr.1"/></a>
+                        <span>Hier finden Sie die Produkte von FairTrade</span></li>
+                        <li><a href="produkte_1_1.html"><img src="../images/kaffee_vista.jpg" height="100px" alt="Kaffee Nr.1"/></a>
+                        <span>Hier finden Sie die </span></li>
+                        <li><img src="../images/fairkaffee.png" height="100px" alt="Fair Kaffee" class="bild"/></li>
+                    </ul>
                 </div>
         </div>
        </div>
@@ -63,4 +65,5 @@
         </ul>
       </div>
     </div>
- </div>
+ </body>
+</html>
