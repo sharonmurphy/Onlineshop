@@ -7,28 +7,40 @@
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
   <link rel="stylesheet" title="standart" media="screen" type="text/css" href="main.css" />
   <link rel="stylesheet" media="print" type="text/css" href="print.css" />
-  <link rel="alternative stylesheet" title="licht" type="text/css" href="lichtaus.css" />
+  <link rel="alternative stylesheet" title="lichtaus" type="text/css" href="lichtaus.css" />
+  <link rel="alternative stylesheet" title="normaleFonts" type="text/css" href="main.css" />
+  <link rel="alternative stylesheet" title="grosseFonts" type="text/css" href="gross.css" />
+  <link rel="alternative stylesheet" title="groessereFonts" type="text/css" href="grosser.css" />
+  <link rel="alternative stylesheet" title="lichtausG" type="text/css" href="lichtausG.css" />
+  <link rel="alternative stylesheet" title="lichtausGG" type="text/css" href="lichtausGG.css" />
   <script type="text/javascript" language="JavaScript" src="scripts/styleswitcher.js"></script>
  </head>
 
  <body>
  <div id="whitespace">
+
   <div id="farbband">
-      <div id="header">
-        <div id="banner">
+
+     <div id="header">
+ 	<div id="login">
+                 <a href="anmeldung.html">Anmeldung</a>
+                 <a href="warenkorb.html">Warenkorb</a>
+                 <img src="images/kleina.jpg" height="15px" onclick="normaleF(); return false;" alt="A"/>
+                 <img src="images/a.jpg" height="15px" onclick="grosseF(); return false;" alt="A+"/>
+                 <img src="images/grossa.jpg" height="15px" onclick="groessereF(); return false;" alt="A++"/>
+	</div>
+
+        <div id="banner"> </div>
+        <div id="logo"><img src="images/logo.png" height="140px" alt="logo"/> </div>
+        <div id="switcher">
+                       <img src="images/licht.png" height="50px" onclick="lichtaus(); return false;" alt="lichtschalter"/>
         </div>
-        <div id="logo">
-        	<img src="images/logo2.png" height="140px" alt="logo"/>
-    </div>
-       <div id="switcher">
-       		<img src="images/licht.png" height="50px" onclick="lichtaus(); return false;" alt="lichtschalter"/>
-       </div>
-      </div>
+     </div>
       
       <div id="topnavi">
 	  		<ul>
-                <li class="link"><a href="index.html">Startseite</a></li>
-                <li class="link"><span class="aktive"><a href="produkte.html">Produkte</a></span></li>
+              	  	<li class="link"><a href="index.html">Startseite</a></li>
+               			 <li class="link"><span class="aktive"><a href="produkte.html">Produkte</a></span></li>
 			    <li class="link"><a href="unternehmen.html">Unternehmen</a></li>
 			    <li class="link"><a href="hersteller.html">Hersteller</a></li>
 			    <li class="link"><a href="infos.html">Infos</a><div class="clear"></div></li>

@@ -64,26 +64,48 @@ var title = cookie ? cookie : getPreferredStyleSheet();
 setActiveStyleSheet(title);
 
         function lichtaus() {
-                if(getActiveStyleSheet() != "licht"){
-                        setActiveStyleSheet('licht');
+                if(getActiveStyleSheet() == "standart"){
+                        setActiveStyleSheet('lichtaus');
                 }
-                else{
-                        setActiveStyleSheet('standart');
-                }
+		else if(getActiveStyleSheet() == "lichtaus"){
+			setActiveStyleSheet('standart');
+		}
+		else if(getActiveStyleSheet() == "grosseFonts"){
+			setActiveStyleSheet('lichtausG');
+		}
+		else if(getActiveStyleSheet() == "groessereFonts"){
+			setActiveStyleSheet('lichtausGG');
+		}
+		else if(getActiveStyleSheet() == "lichtausG"){
+			setActiveStyleSheet('grosseFonts');
+		}
+		else if(getActiveStyleSheet() == "lichtausGG"){
+			setActiveStyleSheet('groessereFonts');
+		}
         }
 
         function normaleF() {
-                if(getActiveStyleSheet() != "standart"){
+                if(getActiveStyleSheet() == "grosseFonts" || getActiveStyleSheet() == "groessereFonts" || getActiveStyleSheet() == "standart"){
                         setActiveStyleSheet('standart');
                 }
                 else{
-                        setActiveStyleSheet('standart');
+                        setActiveStyleSheet('lichtaus');
                 }
         }
         function grosseF(){
+		if(getActiveStyleSheet() == "standart" || getActiveStyleSheet() == "groessereFonts" || getActiveStyleSheet() == "grosseFonts"){
                  setActiveStyleSheet('grosseFonts');
+		}
+		else {
+		 setActiveStyleSheet('lichtausG');
+		}
                  }
 
         function groessereF(){
+		if(getActiveStyleSheet() == "standart" || getActiveStyleSheet() == "grosseFonts" || getActiveStyleSheet() == "groessereFonts"){
                  setActiveStyleSheet('groessereFonts');
-                 }
+		}
+		else{
+			setActiveStyleSheet('lichtausGG');
+		}
+        }
