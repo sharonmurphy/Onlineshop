@@ -103,7 +103,7 @@ li.link a, li.link span {
     background-color:#85bc02;
 }
 
-li.link a:hover{
+li.link a:hover, a.metanavi:hover{
     color: #ff0006;
 }
 
@@ -124,6 +124,11 @@ ul.metanavi li{
     float: right;
 }
 
+a.metanavi {
+    text-decoration: none;
+    color: #494949;
+}
+
 #sidenavi {
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -141,6 +146,14 @@ ul.metanavi li{
     margin: 0;
     padding: 5px;
     text-align: left;
+}
+
+
+#sidenavi p.w3c a img {
+    margin: 1em 2em 0 2em;
+    width:88px;
+    height:31px;
+    border:none;
 }
 
 #content {
@@ -163,8 +176,8 @@ ul.metanavi li{
 
 #content img.bild{
     margin: 1em;
-    padding: 0.5em;
     border: none;
+    text-decoration: none;
     background-color: transparent;
 }
 
@@ -200,6 +213,24 @@ ul.metanavi li{
     -webkit-border-radius:  5px;
 }
 
+#content a img.warenkorb, #content img.fair{
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+}
+
+.warenkorb .bild{
+    float: right;
+}
+
+table.produkt {
+    text-align: center;
+}
+
+table.produkt td {
+    padding: 0.5em;
+}
+
 .produkt span{
     float: left;
     display: inline-block;
@@ -214,17 +245,16 @@ ul.metanavi li{
 
 .column{
     position: relative;
-    left: 0px;
     -webkit-border-radius:  4px;
     border-radius: 4px;
     -moz-border-radius: 4px;
     background-color: white;
     color: #000;
-    margin: 0 1em 0 0;
+    margin: 0 1em 1em 0;
     padding: 1em;
     float: left;
     width: 43%;
-    min-height: 400px;
+    min-height: 100px;
 }
 
 .column a{
