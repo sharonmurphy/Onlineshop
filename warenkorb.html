@@ -40,7 +40,7 @@
 
       <div id="topnavi">
                         <ul>
-               				<li class="link"><span class="aktive">Startseite</span><div class="clear"></div></li>
+               		    <li class="link"><span class="aktive">Startseite</span><div class="clear"></div></li>
                             <li class="link"><a href="produkte.html">Produkte</a></li>
                             <li class="link"><a href="unternehmen.html">Unternehmen</a></li>
                             <li class="link"><a href="hersteller.html">Hersteller</a></li>
@@ -51,13 +51,42 @@
 
 
       <div id="content">
-        <h1>Eine&nbsp;Ueberschrift</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                        elitr, sed diam nonumy eirmod tempor invidunt ut
-            labore et dolore magna aliquyam erat, sed diam
-                        voluptua. At vero eos et accusamet justo duo
-            dolores et ea rebum.
-        </p>
+	<table class="tabelle">
+		<h2>Mein Warenkorb</h2>
+		<tr>
+			<th>Produkt</th>
+			<th>Anzahl</th>
+			<th>Preis/Stück</th>
+			<th>Preis</th>
+		<tr/>
+		
+		<tr class="oben">
+			<td><a class="inlink" href="#">Kaffee Nr.1</a></td>
+			<td><form><input name="Anzahl" type="text" size="1" maxlength="2" value="1"></form></td>
+			<td>100.34€</td>
+			<td>100.34€</td>
+		</tr>		
+		<tr class="oben">
+			<td><a class="inlink" href="#">Kaffee Nr.2</a></td>
+			<td><form><input name="Anzahl" type="text" size="1" maxlength="2" value="2"></form></td>
+			<td>12€</td>
+			<td>24€</td>
+		</tr>
+		<tr class="oben">
+			<td><a class="inlink"href="#">Kaffee Nr.3</a></td>
+			<td><form><input name="Anzahl" type="text" size="1" maxlength="2" value="1"></form></td>
+			<td>1€</td>
+			<td>1€</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td>Preis gesamt:</td>
+			<td class="preis_gesamt">125.34€</td>
+		</tr>
+	</table>
+		
+		<p class="textrechts"><a class="linkbutton"  href="#">Zur Kasse gehen.</a></p>	
 
       </div>
       </div>

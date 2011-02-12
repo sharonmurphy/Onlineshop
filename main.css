@@ -326,3 +326,65 @@ em {
     width: auto;
     font-size: 0.9em;
 }
+
+/* Warenkorbkram */
+
+#warenkorb h4{
+    text-align: center;
+}
+
+#warenkorb{
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius:  5px;
+    background-color:#b4ff00;
+    font-size: 0.9em;
+    position: absolute;
+    top: 37em;
+    height: 13em;
+    width: 12em;
+}
+
+/* Warenkorbtabelle */
+
+.tabelle{
+	width: 100%;
+	border-collapse: collapse;
+			
+}
+.oben td{
+
+	border: groove;
+	background-color: white;
+}
+
+
+.preis_gesamt{
+	border: solid; 
+	background-color: yellow;
+}
+
+.inlink{
+	text-decoration:none;
+	color: #94d101;
+}
+
+.inlink:hover{ 
+	color: black;
+}
+
+.linkbutton{
+	padding: 5px;
+	color: black;
+	background-color: white;
+	text-decoration:none;
+}
+
+.linkbutton:hover{
+	color: white;
+	background-color: black;
+}
+.textrechts{
+	text-align: right;
+}
