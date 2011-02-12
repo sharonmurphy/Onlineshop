@@ -175,10 +175,9 @@ a.metanavi {
 }
 
 #content img.bild{
-    margin: 1em;
+    margin: 0 0.5em 0.5em 0;
     border: none;
-    text-decoration: none;
-    background-color: transparent;
+    float: left;
 }
 
 #content a img.bildlink {
@@ -214,12 +213,16 @@ a.metanavi {
 }
 
 #content a img.warenkorb, #content img.fair{
+    margin: 0 0 0 1em;
     position: absolute;
     bottom: 0px;
     right: 40px;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 .warenkorb .bild{
+    margin: 0.5em;
     float: right;
 }
 
